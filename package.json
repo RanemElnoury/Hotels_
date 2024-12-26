@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ranemelnoury.github.io/Hotels_",
+  "homepage": "https://ranemelnoury.github.io/Hotels_/",
   "name": "HOTELS_",
   "version": "0.1.0",
   "private": true,
@@ -30,8 +30,8 @@
     "yup": "^1.6.1"
   },
   "scripts": {
-    "predeploy":"yarn run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
