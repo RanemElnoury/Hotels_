@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../../assets/images/logo-1.svg";
-
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <>
@@ -13,10 +13,10 @@ function NavBar() {
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="me-auto mb-2 mb-lg-0">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/Tour">Tour</Nav.Link>
-              <Nav.Link href="/Guides">Destination</Nav.Link>
-              <Nav.Link href="/Contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/Tour">Tour</Nav.Link>
+              <Nav.Link as={Link} to="/Guides">Destination</Nav.Link>
+              <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
             </Nav>
             <Nav className="mb-2 mb-lg-0">
               <Nav.Link href="#">Help</Nav.Link>
