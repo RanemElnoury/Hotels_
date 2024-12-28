@@ -14,8 +14,8 @@ function NavBar() {
           <Navbar.Collapse id="navbar-nav">
            <Nav className="me-auto mb-2 mb-lg-0">
   <Nav.Link as={Link} to="/">Home</Nav.Link>
-  <Nav.Link as={Link} to="/Tour">Tour</Nav.Link>
-  <Nav.Link as={Link} to="/Guides">Destination</Nav.Link>
+  <Nav.Link as={Link} to="Hotels_/#Tour">Tour</Nav.Link>
+  <Nav.Link as={Link} to="Hotels_/#/Guides">Destination</Nav.Link>
   <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
 </Nav>
 <Nav className="mb-2 mb-lg-0">
