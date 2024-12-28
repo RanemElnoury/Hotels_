@@ -5,7 +5,8 @@ import RoutesConfig from "./routes/RoutesConfig.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Hotels_">
+
       <Navbar />
       <RoutesConfig />
       <Footer />
