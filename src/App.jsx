@@ -7,11 +7,9 @@ import "./styles/variables.css";
 import "./styles/index.css";
 
 function App() {
-  const basename = process.env.NODE_ENV === "production" ? "/Hotels_" : "";
   return (
     <div className="App">
-      
-      <Router basename={basename}>
+      <Router>
         <Navbar />
         <RoutesConfig />
         <Footer />
