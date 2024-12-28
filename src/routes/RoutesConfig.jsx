@@ -12,7 +12,7 @@ import Login from "../pages/Login/loginForm";
 function RoutesConfig() {
   return (
     <Routes>
-      <Route path=" /Hotels_/#/Guides" element={<Guides />} />
+      <Route path="#/Guides" element={<Guides />} />
       <Route path="#/" element={<Home />} />
       <Route path="#/Tour" element={<Tour />} />
       <Route path="#/HotelDetails" element={<HotelDetail />} />
