@@ -12,16 +12,19 @@ import Login from "../pages/Login/loginForm";
 function RoutesConfig() {
   return (
     <Routes>
-      <Route path="#/Guides" element={<Guides />} />
-      <Route path="#/" element={<Home />} />
-      <Route path="#/Tour" element={<Tour />} />
-      <Route path="#/HotelDetails" element={<HotelDetail />} />
-      <Route path="#/TripsDetailsPage/:id" element={<TripsDetailsPage />} />
-      <Route path="#/Contact" element={<Contact />} />
-      <Route path="#/BookingPage" element={<BookingPage />} />
-      <Route path="#/Login" element={<Login />} />
+      <Route path="/Guides" element={<Guides />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/Tour" element={<Tour />} />
+      <Route path="/HotelDetails" element={<HotelDetail />} />
+      <Route path="/TripsDetailsPage/:id" element={<TripsDetailsPage />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/BookingPage" element={<BookingPage />} />
+      <Route path="/Login" element={<Login />} />
     </Routes>
   );
 }
+
+export default RoutesConfig;
+
 
 export default RoutesConfig;
