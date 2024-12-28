@@ -13,17 +13,17 @@ function NavBar() {
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="me-auto mb-2 mb-lg-0">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/Tour">Tour</Nav.Link>
-              <Nav.Link as={Link} to="/Guides">Destination</Nav.Link>
-              <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="#/">Home</Nav.Link>
+              <Nav.Link as={Link} to="#/Tour">Tour</Nav.Link>
+              <Nav.Link as={Link} to="#/Guides">Destination</Nav.Link>
+              <Nav.Link as={Link} to="#/Contact">Contact</Nav.Link>
             </Nav>
             <Nav className="mb-2 mb-lg-0">
               <Nav.Link href="#">Help</Nav.Link>
               <Nav.Link href="#">Sign up</Nav.Link>
-              <Nav.Link
+              <Nav.Link as={link}
                 className="rounded-5 border px-3 border-dark"
-                href="/Login"
+                to="#/Login"
               >
                 Log in
               </Nav.Link>
