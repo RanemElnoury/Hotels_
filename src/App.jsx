@@ -1,7 +1,7 @@
 import Navbar from "./shared/navbar/Navbar.jsx";
 import Footer from "./shared/footer/Footer.jsx";
-import Home from "../pages/Home/Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import RoutesConfig from "./routes/RoutesConfig.jsx";
+import { HashRouter as Router } from "react-router-dom";
 import "./styles/variables.css";
 import "./styles/index.css";
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Router>
-       <Route path="/" element={<Home />} />
+        <RoutesConfig />
       </Router>
       <Footer />
     </div>
